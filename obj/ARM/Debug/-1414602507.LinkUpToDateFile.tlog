@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/UltrasonicSensor/bin/ARM/Debug/UltrasonicSensor.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/UltrasonicSensor/obj/ARM/Debug/main.o /home/pi/projects/UltrasonicSensor/obj/ARM/Debug/UltrasonicSensor.o -lwiringPi -lpigpio -lrt

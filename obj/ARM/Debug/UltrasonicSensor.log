@@ -1,0 +1,18 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.1.5'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  UltrasonicSensor.cpp
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(41,62): warning : conversion from ‘long long int’ to ‘__gnu_cxx::__promote_2<int, int, double, double>::__type’ {aka ‘double’} may change value [-Wconversion]
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(41,62): warning :    int distance_cm =((1 / pow(10,4))*(331.3 + 0.606 * temp_c)*duration_us)/2;
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(41,62): warning :                                                               ^~~~~~~~~~~
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(41,74): warning : conversion from ‘__gnu_cxx::__promote_2<int, int, double, double>::__type’ {aka ‘double’} to ‘int’ may change value [-Wfloat-conversion]
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(41,74): warning :    int distance_cm =((1 / pow(10,4))*(331.3 + 0.606 * temp_c)*duration_us)/2;
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(41,74): warning :                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(58,51): warning : conversion from ‘long long int’ to ‘int’ may change value [-Wconversion]
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(58,51): warning :   int speed_cmus = (distance_start - distance_end) / duration_us;
+D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\UltrasonicSensor.cpp(58,51): warning :                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+  Linking objects
+  UltrasonicSensor.vcxproj -> D:\Internet of Things Projects\RasbperryPi_Cpp\UltrasonicSensor\bin\ARM\Debug\UltrasonicSensor.out
